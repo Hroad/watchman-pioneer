@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			//浏览器版本判断
+			if(document.all){ 
+		        function stop() {
+		            if (!!(window.attachEvent && !window.opera)){ 
+		                document.execCommand("stop");
+		            }
+		            else{
+		    	        window.stop();
+		            }
+		    }
+		    alert("您的IE浏览器版本太低！请使用其他浏览器"); 
+		    window.stop();
+		    }else{
+		        alert("欢迎来到《守望先锋》官方网站！"); 
+		    }
+		</script>
+		<meta http-equiv="Content-Type" charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!--IE浏览器渲染chrome内核-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>《守望先锋》官方网站</title>
+		<link rel="icon" href="img/title/index.ico" type="image/x-icon"/> 
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header-nav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<!--背景音乐开始-->
+		<audio id="music" autoplay="autoplay" loop="loop" controls="controls">
+			<source src="img/header/英雄.ogg" type="audio/ogg"/>
+			<source src="img/header/英雄.mp3" type="audio/mp3"/>
+		</audio>
+		<!--背景音乐开始-->
+		<div class="container">
+			<!--弹出式登录框-->
+            <div id="login_box">
+            	<span class="glyphicon glyphicon-triangle-top"></span>
+        		<ul>
+                	<li><a href="login.html">登录</a></li>
+                	<li><span></span><a href="login.html">账户</a></li>
+                	<li><span></span><a href="#">注册</a></li>
+               </ul>
+            </div>
+            <div id="login_box_bg"></div>
+            <!--弹出式登录框 end-->
+			<header>
+				<nav class="collapse navbar-collapse" id="collapse1">
+					<a href="http://www.battlenet.com.cn/zh/" class="navbar-brand" target="_blank"></a>
+					<ul class="nav-left">
+						<li>
+							<a href="#">游戏</a>
+							<div class="nav-icon "></div>
+						</li>
+						<li><a href="mall.html">商城</a></li>
+						<li>
+							<a href="#">电竞</a>
+							<div class="nav-icon"></div>
+						</li>
+					</ul>
+					<ul class="nav-right">
+						<li><a href="#">支持</a></li>
+						<li>
+							<a href="#">你的通行证</a>
+							<div class="nav-icon"></div>
+						</li>
+					</ul>
+				</nav>
+				<div class="collapse navbar-collapse" id="collapse1">
+					<a href="index.html"></a>
+					<ul>
+						<li>
+							<a href="#">游戏</a>
+							<div class="icon"></div>
+						</li>
+						<li><a href="hero.html">英雄</a></li>
+						<li>
+							<a href="#">活动</a>
+							<div class="icon"></div>
+						</li>
+						<li><a href="#">视频图片</a></li>
+						<li><a href="news.html">新闻</a></li>
+						<li><a href="#">下载</a></li>
+						<li><a href="#">生涯数据</a></li>
+						<li><a href="#">电子竞技</a></li>
+						<li><a href="#">论坛</a></li>
+						<li><a href="shop.html">购买</a></li>
+					</ul>
+				</div>
+				<span>
+					<a href="#">概述</a>
+					<a href="#">补丁</a>
+				</span>
+				<span>
+					<a href="#">夏季运动会</a>
+					<a href="#">周年庆典</a>
+					<a href="#">国王行动</a>
+				</span>
+				<div class="navbar-toggle" data-target="#collapse1">
+					<span id="menu"></span>
+					<img src="img/header/nav-logo.png"/>
+					<span id="user"></span>
+					<img src="img/header/header-mobile-bg.jpg"/>
+				</div>
+			</header>
+			<div id="video">
+				<video autoplay="autoplay" loop="loop">
+					<source src="img/header/banner.mp4" type="video/mp4"></source>
+					<source src="img/header/banner.webm" type="video/webm"></source>
+					当前浏览器不支持 video直接播放，点击这里下载视频： <a href="http://overwatch.nos.netease.com/1/assets/img/pages/home/anniversary/header.mp4">下载视频</a>
+				</video>
+				<img src="img/header/goty.png"/>
+			</div>
+			<div id="video-btn">
+				<img src="img/header/logo-overwatch-full.png"/>
+				<div><a href="shop.html">立即购买</a></div>
+				<div>
+					<a href="#">
+						<span class="play-icon"></span>
+						<span>游戏介绍</span>
+					</a>
+				</div>
+			</div>
+			<div id="news">
+				<h2>新闻公告</h2>
+				<div class="new_box">
+					<div>
+						<img src="img/header/news01.jpg"/>
+						<a href="#">《守望先锋》动画短片 |《我们出发吧》</a>
+					</div>
+					<div>
+						<img src="img/header/news02.jpg"/>
+						<a href="#">《守望先锋》新地图：渣客镇</a>
+					</div>
+				</div>
+				<div class="more">
+					<a href="news.html">查看所有新闻</a>
+				</div>
+			</div>
+			<div id="search_game">
+				<div class="bg">
+					<img src="img/header/cairo-tablet.jpg"/>
+					<img src="img/header/volskaya-376.jpg"/>
+					<img src="img/header/london-376.jpg"/>
+				</div>
+				<div class="txt">
+					<p>为未来而战</p>
+					<p>军人、科学家、冒险家、奇人异士。</p>
+					<p>在人类陷入空前危机之时，来自全球各个国家的特种精英们，为了结束战争、重铸秩序而团结在了一起。他们，就是<b>守望先锋</b>。 </p>
+					<p>英雄们最终结束了这场危机，人类文明在随后的数十年内和平共存并迎来了一个探索、革新和发现的新时代。尽管如此，守望先锋在多年后逐渐被人们所遗忘，最终难逃被解散的命运。 </p>
+					<p>如今，世界各地争端再起，人们都翘首期待着新英雄的出现，或旧英雄的归来。 </p>
+					<p>你愿意与我们共同抗争吗？ </p>
+				</div>
+				<a href="#">搜索游戏</a>
+			</div>
+			<div id="people">
+				<img src="img/header/candy.jpg"/>
+				<div class="txt">
+					<p>各具特色的英雄</p>
+					<p>不论喜欢哪种游戏方式，你总能找到适合自己玩法的英雄。</p>
+					<p>掌握他们独特的技能玩法，享受《守望先锋》的无穷乐趣！</p>
+				</div>
+				<div class="title">
+					<p>末日铁拳</p>
+					<p>一位利用个人头脑、魅力和蛮力来创建一个更强大世界的战术家。</p>
+				</div>
+				<div class="pic">
+					<img src="img/header/p1.png"/>
+				</div>
+			</div>
+			<div id="home_bg">
+				<img src="img/header/dorado-desktop.jpg"/>
+			</div>
+			<div id="pic_tabs">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait1.png" alt="一位利用个人头脑、魅力和蛮力来创建一个更强大世界的战术家。"/>
+							<span class="people_name">末日铁拳</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait2.png" alt="一名致命的半机械忍者，通过他的机械躯体寻得了身心的和谐。"/>
+							<span class="people_name">源氏</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait3.png" alt="一名亡命天涯的神枪手，以自己的方式伸张正义。"/>
+							<span class="people_name">麦克雷</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait4.png" alt="一名恪守岗位的战士，用实验性的“猛禽”作战服确保天空的安全。"/>
+							<span class="people_name">法老之鹰</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait5.png" alt="一名无情的杀手，一直在追杀前守望先锋的特工们。"/>
+							<span class="people_name">死神</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait6.png" alt="一名试图自己将守望先锋敌人绳之于法的独行侠。"/>
+							<span class="people_name">士兵：76</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait7.png" alt="臭名昭著的黑客，沉迷于揭秘——及其带来的权力。"/>
+							<span class="people_name">黑影</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait8.png" alt="一名前守望先锋特工，同时也是可以穿梭时间的充满正义的冒险家。"/>
+							<span class="people_name">猎空</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait9.png" alt="一名可以切换形态的机器人，为自然着迷而探索世界，同时也对人类保持着戒心。"/>
+							<span class="people_name">堡垒</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait10.png" alt="一名强大而致命的弓箭大师。"/>
+							<span class="people_name">半藏</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait11.png" alt="一名满脑子都是爆炸的变态疯子，只为了混乱和破坏而活。"/>
+							<span class="people_name">狂鼠</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait12.png" alt="一名能够操控天气，为了保护环境而选择战斗的科学家。"/>
+							<span class="people_name">美</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait13.png" alt="一名天才工程师，可以在战场上打造武器系统。"/>
+							<span class="people_name">托比昂</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait14.png" alt="一名完美的杀手：耐心、果断、无情。没有任何情感且事后毫无悔意。"/>
+							<span class="people_name">黑百合</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait15.png" alt="一名前职业玩家，而现在则利用自己的技巧驾驶一台尖端机甲保卫国家。"/>
+							<span class="people_name">D.Va</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait16.png" alt="维护努巴尼秩序并保护努巴尼人民的维和机器人。"/>
+							<span class="people_name">奥丽莎</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait17.png" alt="一名属于过去的勇士，时刻铭记着骑士的信条：无畏、公正、勇敢。"/>
+							<span class="people_name">莱因哈特</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait18.png" alt="一名残暴的杀手，因残忍和肆意破坏而臭名昭著。"/>
+							<span class="people_name">路霸</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait19.png" alt="一只经过基因改造，拥有高等智慧的大猩猩，也是一位出色的科学家和代表着人类潜力的勇士。"/>
+							<span class="people_name">温斯顿</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait20.png" alt="世界上最强壮的女性之一。为了保卫祖国，毅然放弃了个人荣誉。"/>
+							<span class="people_name">查莉娅</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait21.png" alt="守望先锋的创始成员之一，“起死回生”重返战场保护亲人和朋友。"/>
+							<span class="people_name">安娜</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait22.png" alt="一位国际名人，通过音乐和巡演激发社会正能量。"/>
+							<span class="people_name">卢西奥</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait23.png" alt="一名集顶尖的治疗者、出色的科学家和坚定的和平主义者于一身的守护天使。"/>
+							<span class="people_name">天使</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait24.png" alt="一名通过控制高强度光束，将世界改造成她心目中完美、有序的模样的光子建筑师。"/>
+							<span class="people_name">秩序之光</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/header/icon-portrait25.png" alt="一位游走于世界寻找灵魂升华之道的机械僧侣。"/>
+							<span class="people_name">禅雅塔</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="by_box">
+				<img src="img/header/widowmaker-default-pc.png"/>
+				<p>这个世界需要英雄</p>
+				<p>现在即是未来，你来吗？</p>
+				<a href="#">立即购买</a>
+			</div>
+			<div id="footer">
+				<ul>
+					<li>
+						<span></span>
+						<a href="#">在线客服</a>
+					</li>
+					<li>
+						<span></span>
+						<a href="#">反馈</a>
+					</li>
+					<li>
+						<span></span>
+						<a href="#">加入我们</a>
+					</li>
+				</ul>
+				<img src="img/header/blizzard.png"/>
+				<img src="img/header/logo_ne.png"/>
+				<p><a href="#">隐私</a>|<a href="#">法律条款</a>|<a href="#">API</a></p>
+				<div class="company">
+					<p>&copy;2017 暴雪娱乐有限公司版权所有 由上海网之易网络科技发展有限公司运营 著作权侵权 新广出审[2016]378号</p>
+					<p>文网游进字[2016]0025号 沪网文[2014]0731-161号 增值电信业务经营许可证编号：沪B2－20080012</p>
+					<p>互联网违法和不良信息举报电话：0571-28090163 沪公网安备 31011502032167号</p>
+				</div>
+				<p>
+					<img src="img/header/police.png"/>
+					<img src="img/header/zx110.png"/>
+					<img src="img/header/sgs-icon.png"/>
+					<img src="img/header/icon20120516.png"/>
+					<span> |  适龄提示：适合13岁及以上使用   家长监护工程></span>
+				</p>
+				<span></span>
+				<p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。 </p>
+				<p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活</p>
+			</div>
+		</div>
+		<!--返回顶部开始-->
+		<div id="back-to-top" title="返回顶部"></div>
+		<!--返回顶部结束-->
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/header-nav.js"></script>
+		<script type="text/javascript" src="js/anmine.js"></script>
+	</body>
+</html>

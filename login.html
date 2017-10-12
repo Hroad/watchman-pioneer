@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!--IE浏览器渲染chrome内核-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>暴雪游戏通行证登录</title>
+		<link rel="icon" href="img/title/baoxue.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div id="form_box">
+				<img src="img/login/blizzard-default.1C4OH.png"/>
+				<form action="#" method="get">
+					<input type="email" name="e-mail" placeholder="电子邮箱" pattern="^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$" autofocus="autofocus" />
+					<input type="password" name="password" placeholder="密码" pattern="^[a-zA-Z0-9]{8,}$"/>
+					<input type="text" name="code" placeholder="验证码" pattern="^[a-zA-Z0-9]{4}$"/>
+					<div id="code"></div>
+					<input type="button" value="登录"/>
+					<p><span></span>或<span></span></p>
+					<a href="https://reg.163.com/open/oauth2/authorize.do?client_id=2985644329&response_type=code&state=CuYDaHR0cHM6Ly93d3cuYmF0dGxlbmV0LmNvbS5jbi9vYXV0aC9hdXRob3JpemU_Y2xpZW50X2lkPWd1a3d3aDZycXdkdnI4dnBkcWo5N2szYzdqcGtoc3V6JnJlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRmFjY291bnQuYm5ldC4xNjMuY29tJTJGYmF0dGxlbmV0JTJGbG9naW4lM0Zpbm5lcl9jbGllbnRfaWQlM0RvdyUyNmlubmVyX3JlZGlyZWN0X3VyaSUzRGh0dHAlMjUzQSUyNTJGJTI1MkZvdy5ibGl6emFyZC5jbiUyNTJGYmF0dGxlbmV0JTI1MkZsb2dpbiUyNTNGcmVkaXJlY3RfdXJsJTI1M0RodHRwJTI1MjUzQSUyNTI1MkYlMjUyNTJGb3cuYmxpenphcmQuY24lMjUyNTJGaG9tZSZyZXNwb25zZV90eXBlPWNvZGUmc2NvcGU9d293LnByb2ZpbGUlMkJzYzIucHJvZmlsZSUyQmlkJTJCYmF0dGxldGFnJTJCYWNjb3VudC5saWNlbnNlcyUyQmxvZ291dCUyQnByaXZhdGVfZ2FtZXMlMkJvdmVyd2F0Y2gucHJvZmlsZXMlMkJvdmVyd2F0Y2guZ2FtZS1kYXRhEgVvYXV0aBokYWZhMDFmYmYtNjRlOS00YjBjLWEwZDItZjk0MDE2NTAxMWI5IAAqAA&scheme&redirect_uri=https%3A%2F%2Fwww.battlenet.com.cn%2Flogin%2Fsignin%2Fnetease&scope">使用网易通行证登录</a>
+					<a href="#">免费创建暴雪游戏通行证 </a>
+					<a href="#">无法登录？ </a>
+					<a href="#">安全令重新同步 </a>
+				</form>
+				<div id="Xinxi">
+					<span class="glyphicon glyphicon-ban-circle"></span>
+					<p></p>
+				</div>
+			</div>
+			<div id="footer">
+				<p><a href="#">Battle.net EULA</a>|<a href="#">隐私</a>|<a href="#">法律条款</a>|<a href="#">著作权侵权</a></p>
+				<p><a href="#">沪网文[2014]0731-161号</a>|<a href="#">增值电信业务经营许可证编号：沪B2－20080012</a></p>
+				<p>互联网违法和不良信息举报电话：0571-28090163 | 沪公网安备：31011502002167</p>
+				<p>&copy;2017 Blizzard Entertainment, Inc.</p>
+				<ul>
+					<li><a href="#"><img src="img/header/police.png"/></a></li>
+					<li><a href="#"><img src="img/header/zx110.png"/></a></li>
+					<li><a href="#"><img src="img/header/sgs-icon.png"/></a></li>
+					<li><a href="#"><img src="img/header/icon20120516.png"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+	</body>
+</html>

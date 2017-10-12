@@ -1,0 +1,212 @@
+.container header>div>ul>li:nth-child(5){
+	background: -webkit-linear-gradient(rgba(39,93,130,0.1), rgba(39,93,130,0.9)); /* Safari 5.1 - 6.0 */
+ 	background: -o-linear-gradient(rgba(39,93,130,0.1), rgba(39,93,130,0.9)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(39,93,130,0.1), rgba(39,93,130,0.9)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(39,93,130,0.1), rgba(39,93,130,0.9)); /* 标准的语法 */
+}
+.container #news_bg{
+	width: 100%;
+	height: 1891px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index: -1;
+	border-bottom: 1px solid #414141;
+}
+.container #news_bg img{
+	margin-left: -50%;
+}
+.container #banner{
+	width: 1165px;
+	height: 540px;
+	position: absolute;
+	top: 185px;
+	left: 60px;
+}
+.container #banner ul{
+	width: 1165px;
+	height: 540px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+.container #banner ul li{
+	margin: 7.5px;
+	border: 3px solid rgba(150,150,250,0.5);
+	border-radius: 3px;
+	float: left;
+	height: 248px;
+	overflow: hidden;
+}
+.container #banner ul li:hover{
+	border: 3px solid #E3D1C9;
+}
+.container #banner ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-decoration: none;
+}
+.container #banner ul li a img{
+	width: 100%;
+	height: 100%;
+	transition: all ease-in 0.6s; 
+}
+.container #banner ul li:hover img{
+	transform: scale(1.3);
+}
+.container #banner ul li a p{
+	height: 60px;
+	width: 100%;
+	text-align: left;
+	line-height: 60px;
+	padding-left: 25px;
+	position: relative;
+	top: -60px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 18px;
+	font-style: italic;
+	color: white;
+}
+.container #banner ul li a p:hover{
+	color: #F7F505;
+}
+.container #banner ul li:nth-child(1){
+	width: 565px;
+}
+.container #banner ul li:nth-child(2){
+	width: 275px;
+}
+.container #banner ul li:nth-child(3){
+	width: 275px;
+}
+.container #banner ul li:nth-child(4){
+	width: 275px;
+}
+.container #banner ul li:nth-child(5){
+	width: 275px;
+}
+.container #banner ul li:nth-child(6){
+	width: 565px;
+}
+.container #content{
+	width: 1170px;
+	height: 1000px;
+	position: absolute;
+	top: 745px;
+	left: 55px;
+	border-top: 2px solid #686161;
+}
+.container #content ul{
+	width: 1170px;
+	height: 1020px;
+	padding-left: 0px;
+	overflow: hidden;
+}
+.container #content ul li{
+	width: 1170px;
+	height: 170px;
+	overflow: hidden;
+	padding: 20px;
+	border-bottom: 1px solid #353132;
+}
+.container #content ul li:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.container #content ul li>img:nth-child(1){
+	width: 254px;
+	height: 127px;
+	border: 3px solid rgba(150,150,250,0.5);
+	border-radius: 3px;
+}
+.container #content ul li a:nth-child(2){
+	font-size: 18px;
+	color: #F0EDF2;
+	text-decoration: none;
+	position: relative;
+	top: -45px;
+	left: 15px;
+}
+.container #content ul li p:nth-child(3){
+	font-size: 15px;
+	font-style: italic;
+	width: 250px;
+	color: #F0EDF2;
+	position: relative;
+	top: -95px;
+	left: 273px;
+}
+.container #content ul li p:nth-child(4){
+	font-size: 15px;
+	width: 850px;
+	color: #F0EDF2;
+	position: relative;
+	top: -85px;
+	left: 273px;
+}
+.container #content ul li a:nth-child(5){
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	top: -185px;
+	left: 1050px;
+	display: inline-block;
+}
+.container #content ul li a:nth-child(5):hover span{
+	background-position: 0 -25px;
+}
+.container #content ul li:nth-child(2) a:nth-child(5){
+	top: -205px !important;
+}
+.container #content ul li:nth-child(3) a:nth-child(5){
+	top: -205px !important;
+}
+.container #content ul li a:nth-child(5)>span{
+	background: url(../img/news/count-lg.png) no-repeat;
+	background-position: 0px 2px;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+}
+.container #content ul li a:nth-child(5)>img{
+	width: 40px;
+	height: 20px;
+}
+.container #content ul li a:nth-child(5)>p{
+	float: right;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+.container #content>a{
+	border: 3px solid white;
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	top: 25px;
+	left: 460px;
+}
+.container #content>a:hover{
+	color: #262626;
+	background-color: white;
+}
+.container #footer{
+	top: 1850px;
+}

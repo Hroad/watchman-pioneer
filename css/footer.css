@@ -1,0 +1,123 @@
+/*footer*/
+.container #footer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	left: 0px;
+	background-color: #202020;
+}
+.container #footer ul{
+	list-style-type: none;
+	width: 400px;
+	height: 28px;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+	padding-left: 0px;
+}
+.container #footer ul li{
+	float: left;
+	width: 95px;
+	height: 28px;
+	line-height: 28px;
+	margin-right:37px;
+}
+.container #footer ul li:nth-child(3){
+	margin-left: -30px;
+}
+.container #footer ul li span{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url(../img/header/sprite-24-blue.png) no-repeat;
+}
+.container #footer ul li a{
+	float: left;
+	color: white;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.container #footer ul li a:hover{
+	color: #FFFF00;
+}
+.container #footer ul li:nth-child(1) span{
+	background-position: -96px 0px;
+}
+.container #footer ul li:nth-child(2) span{
+	background-position: -144px -24px;
+}
+.container #footer ul li:nth-child(3) span{
+	background-position: -24px -119px;
+}
+.container #footer>img:nth-child(2){
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+.container #footer>img:nth-child(3){
+	position: absolute;
+	top: 187px;
+	left: 320px;
+}
+.container #footer>p:nth-child(4){
+	width:200px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	position: absolute;
+	top: 120px;
+	left: 550px;	
+}
+.container #footer>p:nth-child(4) a{
+	color: white;
+	margin: 0px 10px;
+}
+.container #footer .company{
+	position: absolute;
+	top: 160px;
+	left: 560px;	
+}
+.container #footer .company p{
+	color: #909090;
+	font-size: 12px;
+	line-height: 12px;
+}
+.container #footer>p:nth-child(6){
+	position: absolute;
+	top: 235px;
+	left: 560px;
+}
+.container #footer>p:nth-child(6) img{
+	margin: 0px 3px;
+}
+.container #footer>p:nth-child(6) span{
+	color: #909090;
+	font-size: 12px;
+	line-height: 12px;
+}
+.container #footer>span{
+	display: inline-block;
+	width: 980px;
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	border-bottom: 1px solid #414141;
+}
+.container #footer>p:nth-child(8){
+	position: absolute;
+	top: 320px;
+	left: 240px;
+	color: #909090;
+	font-size: 12px;
+	line-height: 12px;
+}
+.container #footer>p:nth-child(9){
+	position: absolute;
+	top: 350px;
+	left: 260px;
+	color: #909090;
+	font-size: 12px;
+	line-height: 12px;
+}
+/*footer end*/
